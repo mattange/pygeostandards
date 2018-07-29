@@ -1,4 +1,11 @@
 .project
 .pydevproject
 .settings
-pygeostandards/__pycache__
+pygeostandards/__pycache__/
+
+docs/build/
+
+build/
+dist/
+pygeostandards.egg-info/
+

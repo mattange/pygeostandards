@@ -13,12 +13,22 @@ Badges
 .. list-table::
 
    * - info
-     - image:: http://hits.dwyl.io/mattange/pygeostandards.svg :alt: HitCount :target: http://hits.dwyl.io/mattange/pygeostandards image:: https://img.shields.io/github/contributors/mattange/pygeostandards.svg :alt: Contributors :target: https://github.com/mattange/pygeostandards/graphs/contributors
+     - .. image:: http://hits.dwyl.io/mattange/pygeostandards.svg 
+          :alt: HitCount 
+	  :target: http://hits.dwyl.io/mattange/pygeostandards 
+       .. image:: https://img.shields.io/github/contributors/mattange/pygeostandards.svg 
+          :alt: Contributors 
+	  :target: https://github.com/mattange/pygeostandards/graphs/contributors
    * - license
-     - image:: https://img.shields.io/badge/License-MIT-green.svg :alt: License :target: LICENSE
+     - .. image:: https://img.shields.io/badge/License-MIT-green.svg 
+          :alt: License 
+	  :target: LICENSE
    * - package
-     - image:: https://img.shields.io/pypi/v/pygeostandards.svg?style=flat :alt:package :target: https://pypi.python.org/pypi/pygeostandards
+     - .. image:: https://img.shields.io/pypi/v/pygeostandards.svg?style=flat 
+          :alt: package 
+	  :target: https://pypi.python.org/pypi/pygeostandards
 
+	  
 Information
 -----------
 
