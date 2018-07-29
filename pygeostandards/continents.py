@@ -12,6 +12,14 @@ from .basecollection import BaseCollection
 from .info import DATABASEDIR
 
 class Continent(BaseItem):
+    """Continent
+    
+    Describes a continent via alpha_2 code and name.
+    Provides a list of countries as a CountryCollection 
+    in its property countries.
+    
+    """
+    
     _fieldnames = ['alpha_2', 'name']
     _prettyprintfields = _fieldnames
     
@@ -25,6 +33,12 @@ class Continent(BaseItem):
         return self._countries_coll
 
 class ContinentsCollection(BaseCollection):
+    """ContinentsCollection
+    
+    Contains a set of Continents.
+    
+    """
+    
     data_class_base = Continent
 
 continents = ContinentsCollection(Path(DATABASEDIR) / '3166_1_continents_golden.csv')

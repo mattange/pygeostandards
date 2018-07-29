@@ -1,18 +1,18 @@
 # -*- coding: utf-8 -*-
 import setuptools
-from pygeostandards.info import VERSION, PACKAGENAME
+from pygeostandards.info import VERSION, PACKAGENAME, AUTHOR, AUTHOR_EMAIL
 
-with open("README.md", "r") as fh:
+with open("README.rst", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
     name=PACKAGENAME,
     version=VERSION,
-    author="Matteo Angeloni",
-    author_email="mattange@gmail.com",
+    author=AUTHOR,
+    author_email=AUTHOR_EMAIL,
     description="A small package to take care of geographic and other standard information.",
     long_description=long_description,
-    long_description_content_type="text/markdown",
+    long_description_content_type="text/x-rst",
     url="https://github.com/mattange/"+PACKAGENAME,
     packages=setuptools.find_packages(),
     classifiers=(
