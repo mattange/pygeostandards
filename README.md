@@ -1,7 +1,8 @@
 # pygeostandards
 
-## Badges
+### Badges
 
+--- | ---
 info | [![HitCount](http://hits.dwyl.io/mattange/pygeostandards.svg)](http://hits.dwyl.io/mattange/pygeostandards)
 contributors | [![Contributors](https://img.shields.io/github/contributors/mattange/pygeostandards.svg)](https://github.com/mattange/pygeostandards/graphs/contributors)
 license | [![License](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
