@@ -1,0 +1,32 @@
+alpha_2,alpha_3,alpha_4,name,numeric_code,continent_alpha_2,withdrawal_date
+AI,AFI,AIDJ,French Afars and Issas,262,AF,1977-01-01
+AN,ANT,ANHH,Netherlands Antilles,530,SA,1993-07-12
+BQ,ATB,BQAQ,British Antarctic Territory,,AN,1979-01-01
+BU,BUR,BUMM,"Burma, Socialist Republic of the Union of",104,AS,1989-12-05
+BY,BYS,BYAA,Byelorussian SSR Soviet Socialist Republic,112,EU,1992-06-15
+CS,CSK,CSHH,"Czechoslovakia, Czechoslovak Socialist Republic",200,EU,1993-06-15
+CS,SCG,CSXX,Serbia and Montenegro,891,EU,2006-06-05
+CT,CTE,CTKI,Canton and Enderbury Islands,128,OC,1984-01-01
+DD,DDR,DDDE,German Democratic Republic,278,EU,1990-10-30
+DY,DHY,DYBJ,Dahomey,204,AF,1977-01-01
+FQ,ATF,FQHH,French Southern and Antarctic Territories,,AN,1979-01-01
+FX,FXX,FXFR,"France, Metropolitan",249,EU,1997-07-14
+GE,GEL,GEHH,Gilbert and Ellice Islands,296,OC,1979-01-01
+HV,HVO,HVBF,"Upper Volta, Republic of",854,AF,1984-01-01
+JT,JTN,JTUM,Johnston Island,396,NA,1986-01-01
+MI,MID,MIUM,Midway Islands,488,NA,1986-01-01
+NH,NHB,NHVU,New Hebrides,548,OC,1980-01-01
+NQ,ATN,NQAQ,Dronning Maud Land,216,AN,1983-01-01
+NT,NTZ,NTHH,Neutral Zone formerly between Saudi Arabia and Iraq,536,AS,1993-07-12
+PC,PCI,PCHH,"Pacific Islands (trust territory) divided into FM, MH, MP, and PW",582,OC,1986-01-01
+PU,PUS,PUUM,US Miscellaneous Pacific Islands,849,OC,1986-01-01
+PZ,PCZ,PZPA,Panama Canal Zone,,NA,1980-01-01
+RH,RHO,RHZW,Southern Rhodesia,716,AF,1980-01-01
+SK,SKM,SKIN,Sikkim,,AS,1975-01-01
+SU,SUN,SUHH,"USSR, Union of Soviet Socialist Republics",810,EU,1992-08-30
+TP,TMP,TPTL,"East Timor, was Portuguese Timor",626,OC,2002-05-20
+VD,VDR,VDVN,"Viet-Nam, Democratic Republic of",,AS,1977-01-01
+WK,WAK,WKUM,Wake Island,872,NA,1986-01-01
+YD,YMD,YDYE,"Yemen, Democratic, People's Democratic Republic of",720,AS,1990-08-14
+YU,YUG,YUCS,"Yugoslavia, Socialist Federal Republic of",891,EU,1993-07-28
+ZR,ZAR,ZRCD,"Zaire, Republic of",180,AF,1997-07-14

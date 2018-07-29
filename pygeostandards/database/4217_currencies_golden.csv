@@ -1,0 +1,192 @@
+alpha_code,name,numeric_code,minor_unit,country_alpha_2,peg,iso
+AED,UAE Dirham,784,2,AE,,TRUE
+AFN,Afghani,971,2,AF,,TRUE
+ALL,Lek,008,2,AL,,TRUE
+AMD,Armenian Dram,051,2,AM,,TRUE
+ANG,Netherlands Antillean Guilder,532,2,CW SX,,TRUE
+AOA,Kwanza,973,2,AO,,TRUE
+ARS,Argentine Peso,032,2,AR,,TRUE
+AUD,Australian Dollar,036,2,AU CX CC HM KI NR NF TV,,TRUE
+AWG,Aruban Florin,533,2,AW,,TRUE
+AZN,Azerbaijanian Manat,944,2,AZ,,TRUE
+BAM,Convertible Mark,977,2,BA,,TRUE
+BBD,Barbados Dollar,052,2,BB,,TRUE
+BDT,Taka,050,2,BD,,TRUE
+BGN,Bulgarian Lev,975,2,BG,,TRUE
+BHD,Bahraini Dinar,048,3,BH,,TRUE
+BIF,Burundi Franc,108,0,BI,,TRUE
+BMD,Bermudian Dollar,060,2,BM,,TRUE
+BND,Brunei Dollar,096,2,BN,,TRUE
+BOB,Boliviano,068,2,BO,,TRUE
+BRL,Brazilian Real,986,2,BR,,TRUE
+BSD,Bahamian Dollar,044,2,BS,,TRUE
+BTN,Ngultrum,064,2,BT,,TRUE
+BWP,Pula,072,2,BW,,TRUE
+BYN,Belarusian Ruble,933,2,BY,,TRUE
+BZD,Belize Dollar,084,2,BZ,,TRUE
+CAD,Canadian Dollar,124,2,CA,,TRUE
+CDF,Congolese Franc,976,2,CD,,TRUE
+CHF,Swiss Franc,756,2,CH LI,,TRUE
+CLP,Chilean Peso,152,0,CL,,TRUE
+CNY,Yuan Renminbi,156,2,CN,,TRUE
+COP,Colombian Peso,170,2,CO,,TRUE
+CRC,Costa Rican Colon,188,2,CR,,TRUE
+CUC,Peso Convertible,931,2,CU,,TRUE
+CUP,Cuban Peso,192,2,CU,,TRUE
+CVE,Cabo Verde Escudo,132,0,CV,,TRUE
+CZK,Czech Koruna,203,2,CZ,,TRUE
+DJF,Djibouti Franc,262,0,DJ,,TRUE
+DKK,Danish Krone,208,2,DK FO GL,,TRUE
+DOP,Dominican Peso,214,2,DO,,TRUE
+DZD,Algerian Dinar,012,2,DZ,,TRUE
+EGP,Egyptian Pound,818,2,EG,,TRUE
+ERN,Nakfa,232,2,ER,,TRUE
+ETB,Ethiopian Birr,230,2,ET,,TRUE
+EUR,Euro,978,2,AD AT BE CY EE FI FR DE GR GP IE IT LV LT LU MT MQ YT MC ME NL PT RE BL PM SM SK SI ES,,TRUE
+FJD,Fiji Dollar,242,2,FJ,,TRUE
+FKP,Falkland Islands Pound,238,2,FK,1 GBP,TRUE
+GBP,Pound Sterling,826,2,GB IM JS GG,,TRUE
+GEL,Lari,981,2,GE,,TRUE
+GHS,Ghana Cedi,936,2,GH,,TRUE
+GIP,Gibraltar Pound,292,2,GI,1 GBP,TRUE
+GMD,Dalasi,270,2,GM,,TRUE
+GNF,Guinea Franc,324,0,GN,,TRUE
+GTQ,Quetzal,320,2,GT,,TRUE
+GYD,Guyana Dollar,328,2,GY,,TRUE
+HKD,Hong Kong Dollar,344,2,HK,,TRUE
+HNL,Lempira,340,2,HN,,TRUE
+HRK,Kuna,191,2,HR,,TRUE
+HTG,Gourde,332,2,HT,,TRUE
+HUF,Forint,348,2,HU,,TRUE
+IDR,Rupiah,360,2,ID,,TRUE
+ILS,New Israeli Sheqel,376,2,IL,,TRUE
+INR,Indian Rupee,356,2,IN BT,,TRUE
+IQD,Iraqi Dinar,368,3,IQ,,TRUE
+IRR,Iranian Rial,364,2,IR,,TRUE
+ISK,Iceland Krona,352,0,IS,,TRUE
+JMD,Jamaican Dollar,388,2,JM,,TRUE
+JOD,Jordanian Dinar,400,3,JO,,TRUE
+JPY,Yen,392,0,JP,,TRUE
+KES,Kenyan Shilling,404,2,KE,,TRUE
+KGS,Som,417,2,KG,,TRUE
+KHR,Riel,116,2,KH,,TRUE
+KMF,Comoro Franc,174,0,KM,,TRUE
+KPW,North Korean Won,408,2,KP,,TRUE
+KRW,Won,410,0,KR,,TRUE
+KWD,Kuwaiti Dinar,414,3,KW,,TRUE
+KYD,Cayman Islands Dollar,136,2,KY,,TRUE
+KZT,Tenge,398,2,KZ,,TRUE
+LAK,Kip,418,2,LA,,TRUE
+LBP,Lebanese Pound,422,2,LB,,TRUE
+LKR,Sri Lanka Rupee,144,2,LK,,TRUE
+LRD,Liberian Dollar,430,2,LR,,TRUE
+LSL,Loti,426,2,LS,,TRUE
+LYD,Libyan Dinar,434,3,LY,,TRUE
+MAD,Moroccan Dirham,504,2,MA,,TRUE
+MDL,Moldovan Leu,498,2,MD,,TRUE
+MGA,Malagasy Ariary,969,1,MG,,TRUE
+MKD,Denar,807,2,MK,,TRUE
+MMK,Kyat,104,2,MM,,TRUE
+MNT,Tugrik,496,2,MN,,TRUE
+MOP,Pataca,446,2,MO,,TRUE
+MRU,Mauritanian Ouguiya,929,1,MR,,TRUE
+MUR,Mauritius Rupee,480,2,MU,,TRUE
+MVR,Rufiyaa,462,2,MV,,TRUE
+MWK,Malawi Kwacha,454,2,MW,,TRUE
+MXN,Mexican Peso,484,2,MX,,TRUE
+MYR,Malaysian Ringgit,458,2,MY,,TRUE
+MZN,Mozambique Metical,943,2,MZ,,TRUE
+NAD,Namibia Dollar,516,2,NA,,TRUE
+NGN,Naira,566,2,NG,,TRUE
+NIO,Cordoba Oro,558,2,NI,,TRUE
+NOK,Norwegian Krone,578,2,NO SJ BV,,TRUE
+NPR,Nepalese Rupee,524,2,NP,,TRUE
+NZD,New Zealand Dollar,554,2,NZ CK NU PN TK,,TRUE
+OMR,Rial Omani,512,3,OM,,TRUE
+PAB,Balboa,590,2,PA,,TRUE
+PEN,Sol,604,2,PE,,TRUE
+PGK,Kina,598,2,PG,,TRUE
+PHP,Philippine Peso,608,2,PH,,TRUE
+PKR,Pakistan Rupee,586,2,PK,,TRUE
+PLN,Zloty,985,2,PL,,TRUE
+PYG,Guarani,600,0,PY,,TRUE
+QAR,Qatari Rial,634,2,QA,,TRUE
+RON,Romanian Leu,946,2,RO,,TRUE
+RSD,Serbian Dinar,941,2,RS,,TRUE
+RUB,Russian Ruble,643,2,RU,,TRUE
+RWF,Rwanda Franc,646,0,RW,,TRUE
+SAR,Saudi Riyal,682,2,SA,,TRUE
+SBD,Solomon Islands Dollar,090,2,SB,,TRUE
+SCR,Seychelles Rupee,690,2,SC,,TRUE
+SDG,Sudanese Pound,938,2,SD,,TRUE
+SEK,Swedish Krona,752,2,SE,,TRUE
+SGD,Singapore Dollar,702,2,SG,,TRUE
+SHP,Saint Helena Pound,654,2,SH,,TRUE
+SLL,Leone,694,2,SL,,TRUE
+SOS,Somali Shilling,706,2,SO,,TRUE
+SRD,Surinam Dollar,968,2,SR,,TRUE
+SSP,South Sudanese Pound,728,2,SS,,TRUE
+STN,Dobra,930,2,,,TRUE
+SVC,El Salvador Colon,222,2,SV,,TRUE
+SYP,Syrian Pound,760,2,SY,,TRUE
+SZL,Lilangeni,748,2,SZ,,TRUE
+THB,Baht,764,2,TH,,TRUE
+TJS,Somoni,972,2,TJ,,TRUE
+TMT,Turkmenistan New Manat,934,2,TM,,TRUE
+TND,Tunisian Dinar,788,3,TN,,TRUE
+TOP,Pa’anga,776,2,TO,,TRUE
+TRY,Turkish Lira,949,2,TR,,TRUE
+TTD,Trinidad and Tobago Dollar,780,2,TT,,TRUE
+TWD,New Taiwan Dollar,901,2,TW,,TRUE
+TZS,Tanzanian Shilling,834,2,TZ,,TRUE
+UAH,Hryvnia,980,2,UA,,TRUE
+UGX,Uganda Shilling,800,0,UG,,TRUE
+USD,US Dollar,840,2,US AS BB BM IO VG BQ EC SV GU HT MH FM MP PW PA PR TL TC VI UM,,TRUE
+UYU,Peso Uruguayo,858,2,UY,,TRUE
+UZS,Uzbekistan Sum,860,2,UZ,,TRUE
+VEF,Bolívar,937,2,VE,,TRUE
+VND,Dong,704,0,VN,,TRUE
+VUV,Vatu,548,0,VU,,TRUE
+WST,Tala,882,2,WS,,TRUE
+XAF,CFA Franc BEAC,950,0,CM CF CG TD GQ GA,,TRUE
+XAG,Silver,961,nm,,,TRUE
+XAU,Gold,959,nm,,,TRUE
+XBA,Bond Markets Unit European Composite Unit (EURCO),955,nm,,,TRUE
+XBB,Bond Markets Unit European Monetary Unit (E.M.U.-6),956,nm,,,TRUE
+XBC,Bond Markets Unit European Unit of Account 9 (E.U.A.-9),957,nm,,,TRUE
+XBD,Bond Markets Unit European Unit of Account 17 (E.U.A.-17),958,nm,,,TRUE
+XCD,East Caribbean Dollar,951,2,AI AG DM GD MS KN LC VC,,TRUE
+XDR,SDR (Special Drawing Right),960,nm,,,TRUE
+XOF,CFA Franc BCEAO,952,0,BJ BF CI GW ML NE SN TG,,TRUE
+XPD,Palladium,964,nm,,,TRUE
+XPF,CFP Franc,953,0,PF NC WF,,TRUE
+XPT,Platinum,962,nm,,,TRUE
+XSU,Sucre,994,nm,,,TRUE
+XTS,Codes specifically reserved for testing purposes,963,nm,,,TRUE
+XUA,ADB Unit of Account,965,nm,,,TRUE
+XXX,The codes assigned for transactions where no currency is involved,999,nm,,,TRUE
+YER,Yemeni Rial,886,2,YE,,TRUE
+ZAR,Rand,710,2,ZA,,TRUE
+ZMW,Zambian Kwacha,967,2,ZM,,TRUE
+ZWL,Zimbabwe Dollar,932,2,ZW,,TRUE
+CNH,Chinese yuan (when traded offshore),,2,HK,,
+CNT,Chinese yuan (when traded offshore),,2,TW,,
+GGP,Guernsey pound,,2,GG,1 GBP,
+IMP,Isle of Man pound,,2,IM,1 GBP,
+JEP,Jersey pound,,2,JE,1 GBP,
+KID,Kiribati dollar,,2,KI,1 AUD,
+NIS,Israeli new shekel,,2,IL,,
+NTD,New Taiwan Dollar,,2,TW,,
+PRB,Transnistrian ruble,,2,MD,,
+SLS,Somaliland Shilling,,2,SO,,
+RMB,Renmibi,,2,CN,,
+TVD,Tuvalu dollar,,2,TV,1 AUD,
+DASH,Dash,,8,,,
+ETH,Ether,,18,,,
+VTC,Vertcoin,,8,,,
+XBC,Bitcoin Cash,,8,,,
+XBT,Bitcoin,,8,,,
+XLM,Stellar Lumen,,8,,,
+XMR,Monero,,12,,,
+XRP,Ripple,,6,,,
+ZEC,Zcash,,8,,,

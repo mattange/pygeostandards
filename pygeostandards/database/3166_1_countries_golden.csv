@@ -1,0 +1,250 @@
+alpha_2,alpha_3,name,numeric_code,independent,official_name,continent_alpha_2,region_code,sub_region_code,intermediate_region_code
+AW,ABW,Aruba,533,,,NA,,,
+AF,AFG,Afghanistan,004,TRUE,Islamic Republic of Afghanistan,AS,142,34,
+AO,AGO,Angola,024,TRUE,Republic of Angola,AF,2,202,17
+AI,AIA,Anguilla,660,,,NA,19,419,29
+AX,ALA,Åland Islands,248,,,EU,150,154,
+AL,ALB,Albania,008,TRUE,Republic of Albania,EU,150,39,
+AD,AND,Andorra,020,TRUE,Principality of Andorra,EU,150,39,
+AE,ARE,United Arab Emirates,784,TRUE,,AS,142,145,
+AR,ARG,Argentina,032,TRUE,Argentine Republic,SA,19,419,5
+AM,ARM,Armenia,051,TRUE,Republic of Armenia,AS,142,145,
+AS,ASM,American Samoa,016,,,OC,9,61,
+AQ,ATA,Antarctica,010,,,AN,,,
+TF,ATF,French Southern Territories,260,,,AN,2,202,14
+AG,ATG,Antigua and Barbuda,028,TRUE,,NA,19,419,29
+AU,AUS,Australia,036,TRUE,,OC,9,53,
+AT,AUT,Austria,040,TRUE,Republic of Austria,EU,150,155,
+AZ,AZE,Azerbaijan,031,TRUE,Republic of Azerbaijan,AS,142,145,
+BI,BDI,Burundi,108,TRUE,Republic of Burundi,AF,2,202,14
+BE,BEL,Belgium,056,TRUE,Kingdom of Belgium,EU,150,155,
+BJ,BEN,Benin,204,TRUE,Republic of Benin,AF,2,202,11
+BQ,BES,"Bonaire, Sint Eustatius and Saba",535,,,SA,19,419,29
+BF,BFA,Burkina Faso,854,TRUE,,AF,2,202,11
+BD,BGD,Bangladesh,050,TRUE,People's Republic of Bangladesh,AS,142,34,
+BG,BGR,Bulgaria,100,TRUE,Republic of Bulgaria,EU,150,151,
+BH,BHR,Bahrain,048,TRUE,Kingdom of Bahrain,AS,142,145,
+BS,BHS,Bahamas,044,TRUE,Commonwealth of the Bahamas,NA,19,419,29
+BA,BIH,Bosnia and Herzegovina,070,TRUE,Republic of Bosnia and Herzegovina,EU,150,39,
+BL,BLM,Saint Barthélemy,652,,,NA,19,419,29
+BY,BLR,Belarus,112,TRUE,Republic of Belarus,EU,150,151,
+BZ,BLZ,Belize,084,TRUE,,NA,19,419,13
+BM,BMU,Bermuda,060,,,NA,19,21,
+BO,BOL,Bolivia,068,TRUE,Plurinational State of Bolivia,SA,19,419,5
+BR,BRA,Brazil,076,TRUE,Federative Republic of Brazil,SA,19,419,5
+BB,BRB,Barbados,052,TRUE,,NA,19,419,29
+BN,BRN,Brunei Darussalam,096,TRUE,,AS,142,35,
+BT,BTN,Bhutan,064,TRUE,Kingdom of Bhutan,AS,142,34,
+BV,BVT,Bouvet Island,074,,,AN,19,419,5
+BW,BWA,Botswana,072,TRUE,Republic of Botswana,AF,2,202,18
+CF,CAF,Central African Republic,140,TRUE,,AF,2,202,17
+CA,CAN,Canada,124,TRUE,,NA,19,21,
+CC,CCK,Cocos (Keeling) Islands,166,,,AS,9,53,
+CH,CHE,Switzerland,756,TRUE,Swiss Confederation,EU,150,155,
+CL,CHL,Chile,152,TRUE,Republic of Chile,SA,19,419,5
+CN,CHN,China,156,TRUE,People's Republic of China,AS,142,30,
+CI,CIV,Côte d'Ivoire,384,TRUE,Republic of Côte d'Ivoire,AF,2,202,11
+CM,CMR,Cameroon,120,TRUE,Republic of Cameroon,AF,2,202,17
+CD,COD,"Congo, The Democratic Republic of the",180,TRUE,,AF,2,202,17
+CG,COG,Congo,178,TRUE,Republic of the Congo,AF,2,202,17
+CK,COK,Cook Islands,184,,,OC,9,61,
+CO,COL,Colombia,170,TRUE,Republic of Colombia,SA,19,419,5
+KM,COM,Comoros,174,TRUE,Union of the Comoros,AF,2,202,14
+CV,CPV,Cabo Verde,132,TRUE,Republic of Cabo Verde,AF,2,202,11
+CR,CRI,Costa Rica,188,TRUE,Republic of Costa Rica,NA,19,419,13
+CU,CUB,Cuba,192,TRUE,Republic of Cuba,NA,19,419,29
+CW,CUW,Curaçao,531,,,SA,19,419,29
+CX,CXR,Christmas Island,162,,,AS,9,53,
+KY,CYM,Cayman Islands,136,,,NA,19,419,29
+CY,CYP,Cyprus,196,TRUE,Republic of Cyprus,AS,142,145,
+CZ,CZE,Czechia,203,TRUE,Czech Republic,EU,150,151,
+DE,DEU,Germany,276,TRUE,Federal Republic of Germany,EU,150,155,
+DJ,DJI,Djibouti,262,TRUE,Republic of Djibouti,AF,2,202,14
+DM,DMA,Dominica,212,TRUE,Commonwealth of Dominica,NA,19,419,29
+DK,DNK,Denmark,208,TRUE,Kingdom of Denmark,EU,150,154,
+DO,DOM,Dominican Republic,214,TRUE,,NA,19,419,29
+DZ,DZA,Algeria,012,TRUE,People's Democratic Republic of Algeria,AF,2,15,
+EC,ECU,Ecuador,218,TRUE,Republic of Ecuador,SA,19,419,5
+EG,EGY,Egypt,818,TRUE,Arab Republic of Egypt,AF,2,15,
+ER,ERI,Eritrea,232,TRUE,The State of Eritrea,AF,2,202,14
+EH,ESH,Western Sahara,732,,,AF,2,15,
+ES,ESP,Spain,724,TRUE,Kingdom of Spain,EU,150,39,
+EE,EST,Estonia,233,TRUE,Republic of Estonia,EU,150,154,
+ET,ETH,Ethiopia,231,TRUE,Federal Democratic Republic of Ethiopia,AF,2,202,14
+FI,FIN,Finland,246,TRUE,Republic of Finland,EU,150,154,
+FJ,FJI,Fiji,242,TRUE,Republic of Fiji,OC,9,54,
+FK,FLK,Falkland Islands (Malvinas),238,,,SA,19,419,5
+FR,FRA,France,250,TRUE,French Republic,EU,150,155,
+FO,FRO,Faroe Islands,234,,,EU,150,154,
+FM,FSM,"Micronesia, Federated States of",583,TRUE,Federated States of Micronesia,OC,9,57,
+GA,GAB,Gabon,266,TRUE,Gabonese Republic,AF,2,202,17
+GB,GBR,United Kingdom,826,TRUE,United Kingdom of Great Britain and Northern Ireland,EU,150,154,
+GE,GEO,Georgia,268,TRUE,,AS,142,145,
+GG,GGY,Guernsey,831,,,EU,150,154,830
+GH,GHA,Ghana,288,TRUE,Republic of Ghana,AF,2,202,11
+GI,GIB,Gibraltar,292,,,EU,150,39,
+GN,GIN,Guinea,324,TRUE,Republic of Guinea,AF,2,202,11
+GP,GLP,Guadeloupe,312,,,NA,19,419,29
+GM,GMB,Gambia,270,TRUE,Islamic Republic of the Gambia,AF,2,202,11
+GW,GNB,Guinea-Bissau,624,TRUE,Republic of Guinea-Bissau,AF,2,202,11
+GQ,GNQ,Equatorial Guinea,226,TRUE,Republic of Equatorial Guinea,AF,2,202,17
+GR,GRC,Greece,300,TRUE,Hellenic Republic,EU,150,39,
+GD,GRD,Grenada,308,TRUE,,NA,19,419,29
+GL,GRL,Greenland,304,,,NA,19,21,
+GT,GTM,Guatemala,320,TRUE,Republic of Guatemala,NA,19,419,13
+GF,GUF,French Guiana,254,,,SA,19,419,5
+GU,GUM,Guam,316,,,OC,9,57,
+GY,GUY,Guyana,328,TRUE,Republic of Guyana,SA,19,419,5
+HK,HKG,Hong Kong,344,,Hong Kong Special Administrative Region of China,AS,142,30,
+HM,HMD,Heard Island and McDonald Islands,334,,,AN,9,53,
+HN,HND,Honduras,340,TRUE,Republic of Honduras,NA,19,419,13
+HR,HRV,Croatia,191,TRUE,Republic of Croatia,EU,150,39,
+HT,HTI,Haiti,332,TRUE,Republic of Haiti,NA,19,419,29
+HU,HUN,Hungary,348,TRUE,,EU,150,151,
+ID,IDN,Indonesia,360,TRUE,Republic of Indonesia,AS,142,35,
+IM,IMN,Isle of Man,833,,,EU,150,154,
+IN,IND,India,356,TRUE,Republic of India,AS,142,34,
+IO,IOT,British Indian Ocean Territory,086,,,AS,2,202,14
+IE,IRL,Ireland,372,TRUE,,EU,150,154,
+IR,IRN,Iran,364,TRUE,Islamic Republic of Iran,AS,142,34,
+IQ,IRQ,Iraq,368,TRUE,Republic of Iraq,AS,142,145,
+IS,ISL,Iceland,352,TRUE,Republic of Iceland,EU,150,154,
+IL,ISR,Israel,376,TRUE,State of Israel,AS,142,145,
+IT,ITA,Italy,380,TRUE,Italian Republic,EU,150,39,
+JM,JAM,Jamaica,388,TRUE,,NA,19,419,29
+JE,JEY,Jersey,832,,,EU,150,154,830
+JO,JOR,Jordan,400,TRUE,Hashemite Kingdom of Jordan,AS,142,145,
+JP,JPN,Japan,392,TRUE,,AS,142,30,
+KZ,KAZ,Kazakhstan,398,TRUE,Republic of Kazakhstan,AS,142,143,
+KE,KEN,Kenya,404,TRUE,Republic of Kenya,AF,2,202,14
+KG,KGZ,Kyrgyzstan,417,TRUE,Kyrgyz Republic,AS,142,143,
+KH,KHM,Cambodia,116,TRUE,Kingdom of Cambodia,AS,142,35,
+KI,KIR,Kiribati,296,TRUE,Republic of Kiribati,OC,9,57,
+KN,KNA,Saint Kitts and Nevis,659,TRUE,,NA,19,419,29
+KR,KOR,South Korea,410,TRUE,Republic of Korea,AS,142,30,
+KW,KWT,Kuwait,414,TRUE,State of Kuwait,AS,142,145,
+LA,LAO,Laos,418,TRUE,Lao People's Democratic Republic,AS,142,35,
+LB,LBN,Lebanon,422,TRUE,Lebanese Republic,AS,142,145,
+LR,LBR,Liberia,430,TRUE,Republic of Liberia,AF,2,202,11
+LY,LBY,Libya,434,TRUE,,AF,2,15,
+LC,LCA,Saint Lucia,662,TRUE,,NA,19,419,29
+LI,LIE,Liechtenstein,438,TRUE,Principality of Liechtenstein,EU,150,155,
+LK,LKA,Sri Lanka,144,TRUE,Democratic Socialist Republic of Sri Lanka,AS,142,34,
+LS,LSO,Lesotho,426,TRUE,Kingdom of Lesotho,AF,2,202,18
+LT,LTU,Lithuania,440,TRUE,Republic of Lithuania,EU,150,154,
+LU,LUX,Luxembourg,442,TRUE,Grand Duchy of Luxembourg,EU,150,155,
+LV,LVA,Latvia,428,TRUE,Republic of Latvia,EU,150,154,
+MO,MAC,Macao,446,,Macao Special Administrative Region of China,AS,142,30,
+MF,MAF,Saint Martin (French part),663,,,NA,19,419,29
+MA,MAR,Morocco,504,TRUE,Kingdom of Morocco,AF,2,15,
+MC,MCO,Monaco,492,TRUE,Principality of Monaco,EU,150,155,
+MD,MDA,Moldova,498,TRUE,Republic of Moldova,EU,150,151,
+MG,MDG,Madagascar,450,TRUE,Republic of Madagascar,AF,2,202,14
+MV,MDV,Maldives,462,TRUE,Republic of Maldives,AS,142,34,
+MX,MEX,Mexico,484,TRUE,United Mexican States,NA,19,419,13
+MH,MHL,Marshall Islands,584,TRUE,Republic of the Marshall Islands,OC,9,57,
+MK,MKD,Macedonia,807,TRUE,The Former Yugoslav Republic of Macedonia,EU,150,39,
+ML,MLI,Mali,466,TRUE,Republic of Mali,AF,2,202,11
+MT,MLT,Malta,470,TRUE,Republic of Malta,EU,150,39,
+MM,MMR,Myanmar,104,TRUE,Republic of Myanmar,AS,142,35,
+ME,MNE,Montenegro,499,TRUE,,EU,150,39,
+MN,MNG,Mongolia,496,TRUE,,AS,142,30,
+MP,MNP,Northern Mariana Islands,580,,Commonwealth of the Northern Mariana Islands,OC,9,57,
+MZ,MOZ,Mozambique,508,TRUE,Republic of Mozambique,AF,2,202,14
+MR,MRT,Mauritania,478,TRUE,Islamic Republic of Mauritania,AF,2,202,11
+MS,MSR,Montserrat,500,,,NA,19,419,29
+MQ,MTQ,Martinique,474,,,NA,19,419,29
+MU,MUS,Mauritius,480,TRUE,Republic of Mauritius,AF,2,202,14
+MW,MWI,Malawi,454,TRUE,Republic of Malawi,AF,2,202,14
+MY,MYS,Malaysia,458,TRUE,,AS,142,35,
+YT,MYT,Mayotte,175,,,AF,2,202,14
+NA,NAM,Namibia,516,TRUE,Republic of Namibia,AF,2,202,18
+NC,NCL,New Caledonia,540,,,OC,9,54,
+NE,NER,Niger,562,TRUE,Republic of the Niger,AF,2,202,11
+NF,NFK,Norfolk Island,574,,,OC,9,53,
+NG,NGA,Nigeria,566,TRUE,Federal Republic of Nigeria,AF,2,202,11
+NI,NIC,Nicaragua,558,TRUE,Republic of Nicaragua,NA,19,419,13
+NU,NIU,Niue,570,,,OC,9,61,
+NL,NLD,Netherlands,528,TRUE,Kingdom of the Netherlands,EU,150,155,
+NO,NOR,Norway,578,TRUE,Kingdom of Norway,EU,150,154,
+NP,NPL,Nepal,524,TRUE,Federal Democratic Republic of Nepal,AS,142,34,
+NR,NRU,Nauru,520,TRUE,Republic of Nauru,OC,9,57,
+NZ,NZL,New Zealand,554,TRUE,,OC,9,53,
+OM,OMN,Oman,512,TRUE,Sultanate of Oman,AS,142,145,
+PK,PAK,Pakistan,586,TRUE,Islamic Republic of Pakistan,AS,142,34,
+PA,PAN,Panama,591,TRUE,Republic of Panama,NA,19,419,13
+PN,PCN,Pitcairn,612,,,OC,9,61,
+PE,PER,Peru,604,TRUE,Republic of Peru,SA,19,419,5
+PH,PHL,Philippines,608,TRUE,Republic of the Philippines,AS,142,35,
+PW,PLW,Palau,585,TRUE,Republic of Palau,OC,9,57,
+PG,PNG,Papua New Guinea,598,TRUE,Independent State of Papua New Guinea,OC,9,54,
+PL,POL,Poland,616,TRUE,Republic of Poland,EU,150,151,
+PR,PRI,Puerto Rico,630,,,NA,19,419,29
+KP,PRK,North Korea,408,TRUE,Democratic People's Republic of Korea,AS,142,30,
+PT,PRT,Portugal,620,TRUE,Portuguese Republic,EU,150,39,
+PY,PRY,Paraguay,600,TRUE,Republic of Paraguay,SA,19,419,5
+PS,PSE,Palestine,275,,The State of Palestine,AS,142,145,
+PF,PYF,French Polynesia,258,,,OC,9,61,
+QA,QAT,Qatar,634,TRUE,State of Qatar,AS,142,145,
+RE,REU,Réunion,638,,,AF,2,202,14
+RO,ROU,Romania,642,TRUE,,EU,150,151,
+RU,RUS,Russia,643,TRUE,Russian Federation,EU,150,151,
+RW,RWA,Rwanda,646,TRUE,Rwandese Republic,AF,2,202,14
+SA,SAU,Saudi Arabia,682,TRUE,Kingdom of Saudi Arabia,AS,142,145,
+SD,SDN,Sudan,729,TRUE,Republic of the Sudan,AF,2,15,
+SN,SEN,Senegal,686,TRUE,Republic of Senegal,AF,2,202,11
+SG,SGP,Singapore,702,TRUE,Republic of Singapore,AS,142,35,
+GS,SGS,South Georgia and the South Sandwich Islands,239,,,AN,19,419,5
+SH,SHN,"Saint Helena, Ascension and Tristan da Cunha",654,,,AF,2,202,11
+SJ,SJM,Svalbard and Jan Mayen,744,,,EU,150,154,
+SB,SLB,Solomon Islands,090,TRUE,,OC,9,54,
+SL,SLE,Sierra Leone,694,TRUE,Republic of Sierra Leone,AF,2,202,11
+SV,SLV,El Salvador,222,TRUE,Republic of El Salvador,NA,19,419,13
+SM,SMR,San Marino,674,TRUE,Republic of San Marino,EU,150,39,
+SO,SOM,Somalia,706,TRUE,Federal Republic of Somalia,AF,2,202,14
+PM,SPM,Saint Pierre and Miquelon,666,,,NA,19,21,
+RS,SRB,Serbia,688,TRUE,Republic of Serbia,EU,150,39,
+SS,SSD,South Sudan,728,TRUE,Republic of South Sudan,AF,2,202,14
+ST,STP,Sao Tome and Principe,678,TRUE,Democratic Republic of Sao Tome and Principe,AF,2,202,17
+SR,SUR,Suriname,740,TRUE,Republic of Suriname,SA,19,419,5
+SK,SVK,Slovakia,703,TRUE,Slovak Republic,EU,150,151,
+SI,SVN,Slovenia,705,TRUE,Republic of Slovenia,EU,150,39,
+SE,SWE,Sweden,752,TRUE,Kingdom of Sweden,EU,150,154,
+SZ,SWZ,Swaziland,748,TRUE,Kingdom of Swaziland,AF,2,202,18
+SX,SXM,Sint Maarten (Dutch part),534,,,SA,19,419,29
+SC,SYC,Seychelles,690,TRUE,Republic of Seychelles,AF,2,202,14
+SY,SYR,Syria,760,TRUE,Syrian Arab Republic,AS,142,145,
+TC,TCA,Turks and Caicos Islands,796,,,NA,19,419,29
+TD,TCD,Chad,148,TRUE,Republic of Chad,AF,2,202,17
+TG,TGO,Togo,768,TRUE,Togolese Republic,AF,2,202,11
+TH,THA,Thailand,764,TRUE,Kingdom of Thailand,AS,142,35,
+TJ,TJK,Tajikistan,762,TRUE,Republic of Tajikistan,AS,142,143,
+TK,TKL,Tokelau,772,,,OC,9,61,
+TM,TKM,Turkmenistan,795,TRUE,,AS,142,143,
+TL,TLS,Timor-Leste,626,TRUE,Democratic Republic of Timor-Leste,AS,142,35,
+TO,TON,Tonga,776,TRUE,Kingdom of Tonga,OC,9,61,
+TT,TTO,Trinidad and Tobago,780,TRUE,Republic of Trinidad and Tobago,NA,19,419,29
+TN,TUN,Tunisia,788,TRUE,Republic of Tunisia,AF,2,15,
+TR,TUR,Turkey,792,TRUE,Republic of Turkey,EU,142,145,
+TV,TUV,Tuvalu,798,TRUE,,OC,9,61,
+TW,TWN,Taiwan,158,,"Taiwan, Province of China",AS,142,30,
+TZ,TZA,Tanzania,834,TRUE,United Republic of Tanzania,AF,2,202,14
+UG,UGA,Uganda,800,TRUE,Republic of Uganda,AF,2,202,14
+UA,UKR,Ukraine,804,TRUE,,EU,150,151,
+UM,UMI,United States Minor Outlying Islands,581,,,OC,9,57,
+UY,URY,Uruguay,858,TRUE,Eastern Republic of Uruguay,SA,19,419,5
+US,USA,United States,840,TRUE,United States of America,NA,19,21,
+UZ,UZB,Uzbekistan,860,TRUE,Republic of Uzbekistan,AS,142,143,
+VA,VAT,Holy See,336,TRUE,Holy See (Vatican City State),EU,150,39,
+VC,VCT,Saint Vincent and the Grenadines,670,TRUE,,NA,19,419,29
+VE,VEN,Venezuela,862,TRUE,Bolivarian Republic of Venezuela,SA,19,419,5
+VG,VGB,"Virgin Islands, British",092,,British Virgin Islands,NA,19,419,29
+VI,VIR,"Virgin Islands, U.S.",850,,Virgin Islands of the United States,NA,19,419,29
+VN,VNM,Vietnam,704,TRUE,Socialist Republic of Viet Nam,AS,142,35,
+VU,VUT,Vanuatu,548,TRUE,Republic of Vanuatu,OC,9,54,
+WF,WLF,Wallis and Futuna,876,,,OC,9,61,
+WS,WSM,Samoa,882,TRUE,Independent State of Samoa,OC,9,61,
+YE,YEM,Yemen,887,TRUE,Republic of Yemen,AS,142,145,
+ZA,ZAF,South Africa,710,TRUE,Republic of South Africa,AF,2,202,18
+ZM,ZMB,Zambia,894,TRUE,Republic of Zambia,AF,2,202,14
+ZW,ZWE,Zimbabwe,716,TRUE,Republic of Zimbabwe,AF,,,

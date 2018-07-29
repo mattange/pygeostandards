@@ -1,0 +1,183 @@
+alpha_4,name,numeric_code
+Adlm,Adlam,166
+Afak,Afaka,439
+Aghb,Caucasian Albanian,239
+Ahom,"Ahom, Tai Ahom",338
+Arab,Arabic,160
+Aran,Arabic (Nastaliq variant),161
+Armi,Imperial Aramaic,124
+Armn,Armenian,230
+Avst,Avestan,134
+Bali,Balinese,360
+Bamu,Bamum,435
+Bass,Bassa Vah,259
+Batk,Batak,365
+Beng,Bengali,325
+Bhks,Bhaiksuki,334
+Blis,Blissymbols,550
+Bopo,Bopomofo,285
+Brah,Brahmi,300
+Brai,Braille,570
+Bugi,Buginese,367
+Buhd,Buhid,372
+Cakm,Chakma,349
+Cans,Unified Canadian Aboriginal Syllabics,440
+Cari,Carian,201
+Cham,Cham,358
+Cher,Cherokee,445
+Cirt,Cirth,291
+Copt,Coptic,204
+Cprt,Cypriot,403
+Cyrl,Cyrillic,220
+Cyrs,Cyrillic (Old Church Slavonic variant),221
+Deva,Devanagari (Nagari),315
+Dsrt,Deseret (Mormon),250
+Dupl,"Duployan shorthand, Duployan stenography",755
+Egyd,Egyptian demotic,070
+Egyh,Egyptian hieratic,060
+Egyp,Egyptian hieroglyphs,050
+Elba,Elbasan,226
+Ethi,Ethiopic (Geʻez),430
+Geok,Khutsuri (Asomtavruli and Nuskhuri),241
+Geor,Georgian (Mkhedruli),240
+Glag,Glagolitic,225
+Goth,Gothic,206
+Gran,Grantha,343
+Grek,Greek,200
+Gujr,Gujarati,320
+Guru,Gurmukhi,310
+Hanb,Han with Bopomofo (alias for Han + Bopomofo),503
+Hang,"Hangul (Hangŭl, Hangeul)",286
+Hani,"Han (Hanzi, Kanji, Hanja)",500
+Hano,Hanunoo (Hanunóo),371
+Hans,Han (Simplified variant),501
+Hant,Han (Traditional variant),502
+Hatr,Hatran,127
+Hebr,Hebrew,125
+Hira,Hiragana,410
+Hluw,"Anatolian Hieroglyphs (Luwian Hieroglyphs, Hittite Hieroglyphs)",080
+Hmng,Pahawh Hmong,450
+Hrkt,Japanese syllabaries (alias for Hiragana + Katakana),412
+Hung,Old Hungarian (Hungarian Runic),176
+Inds,Indus (Harappan),610
+Ital,"Old Italic (Etruscan, Oscan, etc.)",210
+Jamo,Jamo (alias for Jamo subset of Hangul),284
+Java,Javanese,361
+Jpan,Japanese (alias for Han + Hiragana + Katakana),413
+Jurc,Jurchen,510
+Kali,Kayah Li,357
+Kana,Katakana,411
+Khar,Kharoshthi,305
+Khmr,Khmer,355
+Khoj,Khojki,322
+Kitl,Khitan large script,505
+Kits,Khitan small script,288
+Knda,Kannada,345
+Kore,Korean (alias for Hangul + Han),287
+Kpel,Kpelle,436
+Kthi,Kaithi,317
+Lana,Tai Tham (Lanna),351
+Laoo,Lao,356
+Latf,Latin (Fraktur variant),217
+Latg,Latin (Gaelic variant),216
+Latn,Latin,215
+Leke,Leke,364
+Lepc,Lepcha (Róng),335
+Limb,Limbu,336
+Lina,Linear A,400
+Linb,Linear B,401
+Lisu,Lisu (Fraser),399
+Loma,Loma,437
+Lyci,Lycian,202
+Lydi,Lydian,116
+Mahj,Mahajani,314
+Mand,"Mandaic, Mandaean",140
+Mani,Manichaean,139
+Marc,Marchen,332
+Maya,Mayan hieroglyphs,090
+Mend,Mende Kikakui,438
+Merc,Meroitic Cursive,101
+Mero,Meroitic Hieroglyphs,100
+Mlym,Malayalam,347
+Modi,"Modi, Moḍī",324
+Mong,Mongolian,145
+Moon,"Moon (Moon code, Moon script, Moon type)",218
+Mroo,"Mro, Mru",199
+Mtei,"Meitei Mayek (Meithei, Meetei)",337
+Mult,Multani,323
+Mymr,Myanmar (Burmese),350
+Narb,Old North Arabian (Ancient North Arabian),106
+Nbat,Nabataean,159
+Newa,"Newa, Newar, Newari, Nepāla lipi",333
+Nkgb,"Nakhi Geba ('Na-'Khi ²Ggŏ-¹baw, Naxi Geba)",420
+Nkoo,N’Ko,165
+Nshu,Nüshu,499
+Ogam,Ogham,212
+Olck,"Ol Chiki (Ol Cemet’, Ol, Santali)",261
+Orkh,"Old Turkic, Orkhon Runic",175
+Orya,Oriya,327
+Osge,Osage,219
+Osma,Osmanya,260
+Palm,Palmyrene,126
+Pauc,Pau Cin Hau,263
+Perm,Old Permic,227
+Phag,Phags-pa,331
+Phli,Inscriptional Pahlavi,131
+Phlp,Psalter Pahlavi,132
+Phlv,Book Pahlavi,133
+Phnx,Phoenician,115
+Piqd,Klingon (KLI pIqaD),293
+Plrd,Miao (Pollard),282
+Prti,Inscriptional Parthian,130
+Qaaa,Reserved for private use (start),900
+Qabx,Reserved for private use (end),949
+Rjng,"Rejang (Redjang, Kaganga)",363
+Roro,Rongorongo,620
+Runr,Runic,211
+Samr,Samaritan,123
+Sara,Sarati,292
+Sarb,Old South Arabian,105
+Saur,Saurashtra,344
+Sgnw,SignWriting,095
+Shaw,Shavian (Shaw),281
+Shrd,"Sharada, Śāradā",319
+Sidd,"Siddham, Siddhaṃ, Siddhamātṛkā",302
+Sind,"Khudawadi, Sindhi",318
+Sinh,Sinhala,348
+Sora,Sora Sompeng,398
+Sund,Sundanese,362
+Sylo,Syloti Nagri,316
+Syrc,Syriac,135
+Syre,Syriac (Estrangelo variant),138
+Syrj,Syriac (Western variant),137
+Syrn,Syriac (Eastern variant),136
+Tagb,Tagbanwa,373
+Takr,"Takri, Ṭākrī, Ṭāṅkrī",321
+Tale,Tai Le,353
+Talu,New Tai Lue,354
+Taml,Tamil,346
+Tang,Tangut,520
+Tavt,Tai Viet,359
+Telu,Telugu,340
+Teng,Tengwar,290
+Tfng,Tifinagh (Berber),120
+Tglg,"Tagalog (Baybayin, Alibata)",370
+Thaa,Thaana,170
+Thai,Thai,352
+Tibt,Tibetan,330
+Tirh,Tirhuta,326
+Ugar,Ugaritic,040
+Vaii,Vai,470
+Visp,Visible Speech,280
+Wara,Warang Citi (Varang Kshiti),262
+Wole,Woleai,480
+Xpeo,Old Persian,030
+Xsux,"Cuneiform, Sumero-Akkadian",020
+Yiii,Yi,460
+Zinh,Code for inherited script,994
+Zmth,Mathematical notation,995
+Zsye,Symbols (Emoji variant),993
+Zsym,Symbols,996
+Zxxx,Code for unwritten documents,997
+Zyyy,Code for undetermined script,998
+Zzzz,Code for uncoded script,999
