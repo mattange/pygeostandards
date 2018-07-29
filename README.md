@@ -2,10 +2,10 @@
 
 ## Badges
 
-| info | [![HitCount](http://hits.dwyl.io/mattange/pygeostandards.svg)](http://hits.dwyl.io/mattange/pygeostandards)
-| contributors | [![Contributors](https://img.shields.io/github/contributors/mattange/pygeostandards.svg)](https://github.com/mattange/pygeostandards/graphs/contributors)
-| license | [![License](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-| package | [![Version](https://img.shields.io/pypi/v/pygeostandards.svg?style=flat)](https://pypi.python.org/pypi/pygeostandards)
+info | [![HitCount](http://hits.dwyl.io/mattange/pygeostandards.svg)](http://hits.dwyl.io/mattange/pygeostandards)
+contributors | [![Contributors](https://img.shields.io/github/contributors/mattange/pygeostandards.svg)](https://github.com/mattange/pygeostandards/graphs/contributors)
+license | [![License](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+package | [![Version](https://img.shields.io/pypi/v/pygeostandards.svg?style=flat)](https://pypi.python.org/pypi/pygeostandards)
 
 ## Information
 
