@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Tue Jul 24 00:01:21 2018
+Contains classes related to Languages in ISO-639.
 
-@author: mattange
+.. moduleauthor:: Matteo Angeloni <mattange@gmail.com>
 """
 from pathlib import Path
 
@@ -19,7 +19,7 @@ class Language(BaseItem):
     
     
 class LanguageCollection(BaseCollection):
-    data_class_base = Language
-    no_index = ['language_family', 'macrolanguage', 'parent_alpha_3','notes']
+    _data_class_base = Language
+    _no_index = ['language_family', 'macrolanguage', 'parent_alpha_3','notes']
 
 languages = LanguageCollection(Path(DATABASEDIR) / '639_languages_golden.csv')

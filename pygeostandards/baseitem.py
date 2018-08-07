@@ -3,7 +3,6 @@
 """
 Created on Mon Jul 23 23:12:10 2018
 
-@author: mattange
 """
 import json
 

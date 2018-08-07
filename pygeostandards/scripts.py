@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Tue Jul 24 00:01:21 2018
+Contains classes related to Scripts in ISO-15924.
 
-@author: mattange
+.. moduleauthor:: Matteo Angeloni <mattange@gmail.com>
 """
 from pathlib import Path
 
@@ -16,6 +16,6 @@ class Script(BaseItem):
     _prettyprintfields = _fieldnames
 
 class ScriptsCollection(BaseCollection):
-    data_class_base = Script
+    _data_class_base = Script
 
 scripts = ScriptsCollection(Path(DATABASEDIR) / '15924_scripts_golden.csv')

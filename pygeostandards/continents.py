@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Tue Jul 24 00:01:21 2018
+Contains classes related to Continents.
 
-@author: mattange
+.. moduleauthor:: Matteo Angeloni <mattange@gmail.com>
 """
 from pathlib import Path
 
@@ -12,7 +12,8 @@ from .basecollection import BaseCollection
 from .info import DATABASEDIR
 
 class Continent(BaseItem):
-    """Continent
+    """
+    Continent
     
     Describes a continent via alpha_2 code and name.
     Provides a list of countries as a CountryCollection 
@@ -33,12 +34,22 @@ class Continent(BaseItem):
         return self._countries_coll
 
 class ContinentsCollection(BaseCollection):
-    """ContinentsCollection
+    """
+    ContinentsCollection
     
     Contains a set of Continents.
     
     """
-    
-    data_class_base = Continent
+    _data_class_base = Continent
 
 continents = ContinentsCollection(Path(DATABASEDIR) / '3166_1_continents_golden.csv')
+"""
+continents core collection
+
+This is the base continents collection containing 
+all 6 continents. Use this to get specific items.
+
+"""
+
+
+ 

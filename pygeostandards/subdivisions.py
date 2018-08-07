@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Tue Jul 24 00:01:21 2018
+Contains classes related to Subdivisions in ISO 3166-2.
 
-@author: mattange
+.. moduleauthor:: Matteo Angeloni <mattange@gmail.com>
 """
 from pathlib import Path
 
@@ -18,7 +18,6 @@ class Subdivision(BaseItem):
     @property
     def parent(self):
         if self.parent_code != '':
-            from .subdivisions import subdivisions
             return subdivisions.get(code=self.parent_code)
         else:
             return None
@@ -33,6 +32,6 @@ class Subdivision(BaseItem):
         return countries.get(alpha_2=self.country_alpha_2)
 
 class SubdivisionsCollection(BaseCollection):
-    data_class_base = Subdivision
+    _data_class_base = Subdivision
 
 subdivisions = SubdivisionsCollection(Path(DATABASEDIR) / '3166_2_subdivisions_golden.csv')

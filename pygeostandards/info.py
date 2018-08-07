@@ -8,5 +8,7 @@ COPYRIGHT = "2018, " + AUTHOR
 
 from pathlib import Path
 PACKAGEDIR = Path(__file__).parent
-DATABASEDIR = PACKAGEDIR / 'database'
+DATADIR = 'database'
+DATABASEDIR = PACKAGEDIR / DATADIR
+
 

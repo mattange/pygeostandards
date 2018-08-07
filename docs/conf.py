@@ -14,18 +14,17 @@
 #
 import os
 import sys
-sys.path.insert(0, os.path.abspath('../../../'))
-sys.path.insert(0, os.path.abspath('../../../pygeostandards'))
+sys.path.insert(0, os.path.abspath('.'))
+sys.path.insert(0, os.path.abspath('..'))
 
-from pygeostandards.info import AUTHOR, PACKAGENAME, VERSION, RELEASE, COPYRIGHT
 
 # -- Project information -----------------------------------------------------
+from pygeostandards.info import AUTHOR, PACKAGENAME, VERSION, RELEASE, COPYRIGHT
 
 project = PACKAGENAME
 copyright = COPYRIGHT
 author = AUTHOR
 
-  
 # The short X.Y version
 version = VERSION
 # The full version, including alpha/beta/rc tags
@@ -43,10 +42,14 @@ release = RELEASE
 # ones.
 extensions = [
     'sphinx.ext.autodoc',
+    'sphinx.ext.autosummary',
+    'sphinx.ext.todo',
     'sphinx.ext.imgmath',
+    'sphinx.ext.viewcode',
 ]
 
 autodoc_default_flags = ['members', 'show-inheritance']
+
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -70,7 +73,7 @@ language = None
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path .
-exclude_patterns = []
+exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
 # The name of the Pygments (syntax highlighting) style to use.
 pygments_style = 'sphinx'
@@ -108,7 +111,7 @@ html_static_path = ['_static']
 # -- Options for HTMLHelp output ---------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'pygeostandardsdoc'
+htmlhelp_basename = PACKAGENAME + 'doc'
 
 
 # -- Options for LaTeX output ------------------------------------------------
@@ -135,8 +138,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'pygeostandards.tex', 'pygeostandards Documentation',
-     'Matteo Angeloni', 'manual'),
+    (master_doc, PACKAGENAME + '.tex', PACKAGENAME + ' Documentation',
+     AUTHOR, 'manual'),
 ]
 
 
@@ -145,7 +148,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'pygeostandards', 'pygeostandards Documentation',
+    (master_doc, PACKAGENAME, PACKAGENAME + ' Documentation',
      [author], 1)
 ]
 
@@ -156,10 +159,15 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'pygeostandards', 'pygeostandards Documentation',
-     author, 'pygeostandards', 'One line description of project.',
+    (master_doc, PACKAGENAME, PACKAGENAME + ' Documentation',
+     author, PACKAGENAME, 'Geographic standards in Python.',
      'Miscellaneous'),
 ]
 
 
 # -- Extension configuration -------------------------------------------------
+
+# -- Options for todo extension ----------------------------------------------
+
+# If true, `todo` and `todoList` produce output, else they produce nothing.
+todo_include_todos = True

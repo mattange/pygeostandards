@@ -1,9 +1,12 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Tue Jul 24 00:01:21 2018
+Contains classes related to Regions, Subregions and Intermediate 
+regions. This is to be used in conjunction with the countries, 
+as each country is normally assigned a region (and possibly a 
+subregion and intermediate region).
 
-@author: mattange
+.. moduleauthor:: Matteo Angeloni <mattange@gmail.com>
 """
 from pathlib import Path
 
@@ -17,7 +20,7 @@ class Region(BaseItem):
         
     
 class RegionsCollection(BaseCollection):
-    data_class_base = Region
+    _data_class_base = Region
 
 regions = RegionsCollection(Path(DATABASEDIR) / 'regions_golden.csv')
 sub_regions = RegionsCollection(Path(DATABASEDIR) / 'sub_regions_golden.csv')

@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Tue Jul 24 00:01:21 2018
+Contains classes related to the European Nomenclature 
+of territorial units for statistics (2016 version).
 
-@author: mattange
+.. moduleauthor:: Matteo Angeloni <mattange@gmail.com>
 """
 from pathlib import Path
 
@@ -28,13 +29,12 @@ class EuroNuts(BaseItem):
     @property
     def parent(self):
         if self.parent_numeric_code != '':
-            from .euronuts import euronuts
             return euronuts.get(numeric_code=self.parent_numeric_code)
         else:
             return None
     
 class EuroNutsCollection(BaseCollection):
-    data_class_base = EuroNuts
-    no_index = ['order', 'level', 'parent_numeric_code']
+    _data_class_base = EuroNuts
+    _no_index = ['order', 'level', 'parent_numeric_code']
 
 euronuts = EuroNutsCollection(Path(DATABASEDIR) / 'nuts_2016_golden.csv')

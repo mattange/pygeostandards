@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Tue Jul 24 00:01:21 2018
+Contains classes related to Countries in ISO-3166.
 
-@author: mattange
+.. moduleauthor:: Matteo Angeloni <mattange@gmail.com>
 """
 from pathlib import Path
 
@@ -55,8 +55,8 @@ class Country(BaseItem):
     
 
 class CountriesCollection(BaseCollection):
-    data_class_base = Country
-    no_index = ['continent_code', 'independent', 'region_code', 
+    _data_class_base = Country
+    _no_index = ['continent_code', 'independent', 'region_code', 
                 'sub_region_code', 'intermediate_region_code', 'continent_alpha_2']
 
 countries = CountriesCollection(Path(DATABASEDIR) / '3166_1_countries_golden.csv')

@@ -3,7 +3,7 @@
 .settings
 pygeostandards/__pycache__/
 
-docs/build/
+docs/_build/
 
 build/
 dist/

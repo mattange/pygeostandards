@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Tue Jul 24 00:01:21 2018
+Contains classes related to Currencies in ISO-4217.
 
-@author: mattange
+.. moduleauthor:: Matteo Angeloni <mattange@gmail.com>
 """
 from pathlib import Path
 
@@ -24,8 +24,8 @@ class Currency(BaseItem):
             return False
     
 class CurrenciesCollection(BaseCollection):
-    data_class_base = Currency
-    no_index = ['minor_unit', 'country_alpha_2', 'peg', 'iso']
+    _data_class_base = Currency
+    _no_index = ['minor_unit', 'country_alpha_2', 'peg', 'iso']
 
 currencies = CurrenciesCollection(Path(DATABASEDIR) / '4217_currencies_golden.csv')
 

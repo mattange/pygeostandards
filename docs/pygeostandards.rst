@@ -1,26 +1,4 @@
-pygeostandards package
-======================
-
-Submodules
-----------
-
-pygeostandards.basecollection module
-------------------------------------
-
-.. automodule:: pygeostandards.basecollection
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-pygeostandards.baseitem module
-------------------------------
-
-.. automodule:: pygeostandards.baseitem
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-pygeostandards.continents module
+continents
 --------------------------------
 
 .. automodule:: pygeostandards.continents
@@ -28,7 +6,7 @@ pygeostandards.continents module
     :undoc-members:
     :show-inheritance:
 
-pygeostandards.countries module
+countries
 -------------------------------
 
 .. automodule:: pygeostandards.countries
@@ -36,7 +14,7 @@ pygeostandards.countries module
     :undoc-members:
     :show-inheritance:
 
-pygeostandards.currencies module
+currencies
 --------------------------------
 
 .. automodule:: pygeostandards.currencies
@@ -44,7 +22,7 @@ pygeostandards.currencies module
     :undoc-members:
     :show-inheritance:
 
-pygeostandards.euronuts module
+euronuts
 ------------------------------
 
 .. automodule:: pygeostandards.euronuts
@@ -52,7 +30,7 @@ pygeostandards.euronuts module
     :undoc-members:
     :show-inheritance:
 
-pygeostandards.euroregions module
+euroregions
 ---------------------------------
 
 .. automodule:: pygeostandards.euroregions
@@ -60,7 +38,7 @@ pygeostandards.euroregions module
     :undoc-members:
     :show-inheritance:
 
-pygeostandards.historiccountries module
+historiccountries
 ---------------------------------------
 
 .. automodule:: pygeostandards.historiccountries
@@ -68,15 +46,7 @@ pygeostandards.historiccountries module
     :undoc-members:
     :show-inheritance:
 
-pygeostandards.info module
---------------------------
-
-.. automodule:: pygeostandards.info
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-pygeostandards.languages module
+languages
 -------------------------------
 
 .. automodule:: pygeostandards.languages
@@ -84,7 +54,7 @@ pygeostandards.languages module
     :undoc-members:
     :show-inheritance:
 
-pygeostandards.regions module
+regions
 -----------------------------
 
 .. automodule:: pygeostandards.regions
@@ -92,7 +62,7 @@ pygeostandards.regions module
     :undoc-members:
     :show-inheritance:
 
-pygeostandards.scripts module
+scripts
 -----------------------------
 
 .. automodule:: pygeostandards.scripts
@@ -100,7 +70,7 @@ pygeostandards.scripts module
     :undoc-members:
     :show-inheritance:
 
-pygeostandards.subdivisions module
+subdivisions
 ----------------------------------
 
 .. automodule:: pygeostandards.subdivisions
@@ -108,19 +78,4 @@ pygeostandards.subdivisions module
     :undoc-members:
     :show-inheritance:
 
-pygeostandards.utils module
----------------------------
 
-.. automodule:: pygeostandards.utils
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-
-Module contents
----------------
-
-.. automodule:: pygeostandards
-    :members:
-    :undoc-members:
-    :show-inheritance:

@@ -3,7 +3,6 @@
 """
 Created on Mon Jul 23 23:18:18 2018
 
-@author: mattange
 """
 import threading
 import logging
@@ -18,8 +17,8 @@ logger = logging.getLogger('BaseCollection')
 
 class BaseCollection():
     
-    data_class_base = BaseItem
-    no_index = []
+    _data_class_base = BaseItem
+    _no_index = []
     
     def __init__(self, path_or_list):
         if isinstance(path_or_list, Path):
@@ -52,10 +51,10 @@ class BaseCollection():
         self.indices = {}
         
         f = open(self.path, 'r', encoding="utf-8")
-        reader = csv.DictReader(f, fieldnames=self.data_class_base.fieldnames(), delimiter=",")
+        reader = csv.DictReader(f, fieldnames=self._data_class_base.fieldnames(), delimiter=",")
         next(reader)
         for entry in reader:
-            obj = self.data_class_base(**entry)
+            obj = self._data_class_base(**entry)
             self.objects.append(obj)
             self._addtoindex(obj)
 
@@ -64,7 +63,7 @@ class BaseCollection():
     def _addtoindex(self, obj):
         entry = obj.fields
         for key, value in entry.items():
-            if key in self.no_index:
+            if key in self._no_index:
                 continue
             index = self.indices.setdefault(key, {})
             if value in index:

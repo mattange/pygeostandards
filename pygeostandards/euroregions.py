@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Tue Jul 24 00:01:21 2018
+Contains classes related to European Union / Eurozone 
+/ Euroarea subdivisions.
 
-@author: mattange
+.. moduleauthor:: Matteo Angeloni <mattange@gmail.com>
 """
 from pathlib import Path
 
@@ -15,6 +16,6 @@ class EuroRegion(BaseItem):
     _fieldnames = ['alpha_code', 'name']
     
 class EuroRegionCollection(BaseCollection):
-    data_class_base = EuroRegion
+    _data_class_base = EuroRegion
 
 euroregions = EuroRegionCollection(Path(DATABASEDIR) / 'euroregions_golden.csv')

@@ -1,4 +1,3 @@
-==============
 pygeostandards
 ==============
 
@@ -9,7 +8,6 @@ and Euro Area subdivisions, NUTS 2016 geographic codes.
 
 Badges
 ------
-
 .. list-table::
 
    * - info
@@ -31,7 +29,6 @@ Badges
 	  
 Information
 -----------
-
 Best effort basis.
 
 Loosely based on the excellent pycountry, with
@@ -41,7 +38,7 @@ in addition to countries.
 
 Classes are - where possible - linked.
 Objects are loaded from easly readable and modifiable 
-csv files (use xlsx files an save as csv as needed).
+csv files (use xlsx files and save as csv as needed).
 
 Order of columns in the CSV files MUST match order
 of column specifications in the individual object definitions.
@@ -49,7 +46,6 @@ of column specifications in the individual object definitions.
 
 Install
 -------
-
 .. code-block:: bash
 	
 	pip install pygeostandards
@@ -57,7 +53,6 @@ Install
 
 Dependencies
 ------------
-
 None
 
 

@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Tue Jul 24 00:01:21 2018
+Contains classes related to Historic Countries 
+no longer in existence in ISO-3166.
 
-@author: mattange
+.. moduleauthor:: Matteo Angeloni <mattange@gmail.com>
 """
 from pathlib import Path
 
@@ -16,7 +17,7 @@ class HistoricCountry(BaseItem):
                    'continent_alpha_2', 'withdrawal_date']
 
 class HistoricCountriesCollection(BaseCollection):
-    data_class_base = HistoricCountry
-    no_index = ['numeric_code','withdrawal_date']
+    _data_class_base = HistoricCountry
+    _no_index = ['numeric_code','withdrawal_date']
 
 historiccountries = HistoricCountriesCollection(Path(DATABASEDIR) / '3166_3_historiccountries_golden.csv')
