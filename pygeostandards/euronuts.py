@@ -6,8 +6,6 @@ of territorial units for statistics (2016 version).
 
 .. moduleauthor:: Matteo Angeloni <mattange@gmail.com>
 """
-from pathlib import Path
-
 from .baseitem import BaseItem
 from .basecollection import BaseCollection
 from .info import DATABASEDIR
@@ -37,4 +35,4 @@ class EuroNutsCollection(BaseCollection):
     _data_class_base = EuroNuts
     _no_index = ['order', 'level', 'parent_numeric_code']
 
-euronuts = EuroNutsCollection(Path(DATABASEDIR) / 'nuts_2016_golden.csv')
+euronuts = EuroNutsCollection('nuts_2016_golden.csv')

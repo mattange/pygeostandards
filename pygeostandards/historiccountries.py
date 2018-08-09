@@ -6,11 +6,8 @@ no longer in existence in ISO-3166.
 
 .. moduleauthor:: Matteo Angeloni <mattange@gmail.com>
 """
-from pathlib import Path
-
 from .baseitem import BaseItem
 from .basecollection import BaseCollection
-from .info import DATABASEDIR
 
 class HistoricCountry(BaseItem):
     _fieldnames = ['alpha_2', 'alpha_3', 'alpha_4', 'name', 'numeric_code', 
@@ -20,4 +17,4 @@ class HistoricCountriesCollection(BaseCollection):
     _data_class_base = HistoricCountry
     _no_index = ['numeric_code','withdrawal_date']
 
-historiccountries = HistoricCountriesCollection(Path(DATABASEDIR) / '3166_3_historiccountries_golden.csv')
+historiccountries = HistoricCountriesCollection('3166_3_historiccountries_golden.csv')

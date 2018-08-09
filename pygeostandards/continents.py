@@ -5,11 +5,10 @@ Contains classes related to Continents.
 
 .. moduleauthor:: Matteo Angeloni <mattange@gmail.com>
 """
-from pathlib import Path
 
 from .baseitem import BaseItem
 from .basecollection import BaseCollection
-from .info import DATABASEDIR
+
 
 class Continent(BaseItem):
     """
@@ -42,7 +41,7 @@ class ContinentsCollection(BaseCollection):
     """
     _data_class_base = Continent
 
-continents = ContinentsCollection(Path(DATABASEDIR) / '3166_1_continents_golden.csv')
+continents = ContinentsCollection('3166_1_continents_golden.csv')
 """
 continents core collection
 

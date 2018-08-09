@@ -5,11 +5,8 @@ Contains classes related to Subdivisions in ISO 3166-2.
 
 .. moduleauthor:: Matteo Angeloni <mattange@gmail.com>
 """
-from pathlib import Path
-
 from .baseitem import BaseItem
 from .basecollection import BaseCollection
-from .info import DATABASEDIR
 
 class Subdivision(BaseItem):
     _fieldnames = ['code', 'name', 'parent_code', 'type']
@@ -34,4 +31,4 @@ class Subdivision(BaseItem):
 class SubdivisionsCollection(BaseCollection):
     _data_class_base = Subdivision
 
-subdivisions = SubdivisionsCollection(Path(DATABASEDIR) / '3166_2_subdivisions_golden.csv')
+subdivisions = SubdivisionsCollection('3166_2_subdivisions_golden.csv')

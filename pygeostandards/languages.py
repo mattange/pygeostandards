@@ -5,11 +5,9 @@ Contains classes related to Languages in ISO-639.
 
 .. moduleauthor:: Matteo Angeloni <mattange@gmail.com>
 """
-from pathlib import Path
-
 from .baseitem import BaseItem
 from .basecollection import BaseCollection
-from .info import DATABASEDIR
+
 
 class Language(BaseItem):
     _fieldnames = ['language_family','name','native_name',
@@ -22,4 +20,4 @@ class LanguageCollection(BaseCollection):
     _data_class_base = Language
     _no_index = ['language_family', 'macrolanguage', 'parent_alpha_3','notes']
 
-languages = LanguageCollection(Path(DATABASEDIR) / '639_languages_golden.csv')
+languages = LanguageCollection('639_languages_golden.csv')

@@ -5,11 +5,9 @@ Contains classes related to Countries in ISO-3166.
 
 .. moduleauthor:: Matteo Angeloni <mattange@gmail.com>
 """
-from pathlib import Path
-
 from .baseitem import BaseItem
 from .basecollection import BaseCollection
-from .info import DATABASEDIR
+
 
 class Country(BaseItem):
     _fieldnames = ['alpha_2', 'alpha_3', 'name', 'numeric_code', 'independent', 
@@ -59,4 +57,4 @@ class CountriesCollection(BaseCollection):
     _no_index = ['continent_code', 'independent', 'region_code', 
                 'sub_region_code', 'intermediate_region_code', 'continent_alpha_2']
 
-countries = CountriesCollection(Path(DATABASEDIR) / '3166_1_countries_golden.csv')
+countries = CountriesCollection('3166_1_countries_golden.csv')

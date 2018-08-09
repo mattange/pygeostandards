@@ -8,11 +8,8 @@ subregion and intermediate region).
 
 .. moduleauthor:: Matteo Angeloni <mattange@gmail.com>
 """
-from pathlib import Path
-
 from .baseitem import BaseItem
 from .basecollection import BaseCollection
-from .info import DATABASEDIR
 
 class Region(BaseItem):
     _fieldnames = ['name','code']
@@ -22,6 +19,6 @@ class Region(BaseItem):
 class RegionsCollection(BaseCollection):
     _data_class_base = Region
 
-regions = RegionsCollection(Path(DATABASEDIR) / 'regions_golden.csv')
-sub_regions = RegionsCollection(Path(DATABASEDIR) / 'sub_regions_golden.csv')
-intermediate_regions = RegionsCollection(Path(DATABASEDIR) / 'intermediate_regions_golden.csv')
+regions = RegionsCollection('regions_golden.csv')
+sub_regions = RegionsCollection('sub_regions_golden.csv')
+intermediate_regions = RegionsCollection('intermediate_regions_golden.csv')

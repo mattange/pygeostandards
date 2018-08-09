@@ -5,11 +5,9 @@ Contains classes related to Currencies in ISO-4217.
 
 .. moduleauthor:: Matteo Angeloni <mattange@gmail.com>
 """
-from pathlib import Path
-
 from .baseitem import BaseItem
 from .basecollection import BaseCollection
-from .info import DATABASEDIR
+
 
 class Currency(BaseItem):
     _fieldnames = ['alpha_code', 'name', 'numeric_code',
@@ -27,5 +25,5 @@ class CurrenciesCollection(BaseCollection):
     _data_class_base = Currency
     _no_index = ['minor_unit', 'country_alpha_2', 'peg', 'iso']
 
-currencies = CurrenciesCollection(Path(DATABASEDIR) / '4217_currencies_golden.csv')
+currencies = CurrenciesCollection('4217_currencies_golden.csv')
 

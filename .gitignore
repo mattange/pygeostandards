@@ -2,6 +2,7 @@
 .pydevproject
 .settings
 pygeostandards/__pycache__/
+pygeostandards/*.pyc
 
 docs/_build/
 
