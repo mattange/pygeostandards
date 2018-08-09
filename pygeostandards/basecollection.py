@@ -7,6 +7,7 @@ Created on Mon Jul 23 23:18:18 2018
 import threading
 import logging
 import csv
+import codecs
 from pkg_resources import resource_stream
 
 from .info import DATADIR
@@ -23,7 +24,7 @@ class BaseCollection():
     def __init__(self, string_or_list):
         if isinstance(string_or_list, str):
             #assume we need loading from csv files
-            self._stream = resource_stream(__name__, DATADIR + "/" + string_or_list)
+            self._stream = DATADIR + "/" + string_or_list
             self._is_loaded = False
         else:
             #assume it's a list that we can attach to object directly
@@ -50,8 +51,9 @@ class BaseCollection():
         self.index_names = set()
         self.indices = {}
         
-        #f = open(self._stream, 'r', encoding="utf-8")
-        reader = csv.DictReader(self._stream, fieldnames=self._data_class_base.fieldnames(), delimiter=",")
+        io = resource_stream(__name__, self._stream)
+        utf8_reader = codecs.getreader('utf-8')
+        reader = csv.DictReader(utf8_reader(io), fieldnames=self._data_class_base.fieldnames(), delimiter=",")
         next(reader)
         for entry in reader:
             obj = self._data_class_base(**entry)
@@ -70,7 +72,7 @@ class BaseCollection():
                 logger.debug(
                     '%s %r already taken in index %r and will be '
                     'ignored. This is an error in the databases.' %
-                    (self.data_class_base.__name__, value, key))
+                    (self._data_class_base.__name__, value, key))
             index[value] = obj
         
     @lazy_load
@@ -96,5 +98,9 @@ class BaseCollection():
     def to_csv(self, filename):
         with open(filename, 'wt') as f:
             csvwriter = csv.writer(f, delimiter=',')
-            csvwriter.writerow(self.data_class.fieldnames())
+            csvwriter.writerow(self._data_class_base.fieldnames())
             csvwriter.writerows([o.fields.values() for o in self.objects])
+            
+    @classmethod
+    def fieldnames(cls):
+        return cls._data_class_base.fieldnames()

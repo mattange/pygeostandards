@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-VERSION = "0.1"
+VERSION = "0.2"
 RELEASE = VERSION + "b1"
 PACKAGENAME = "pygeostandards"
 AUTHOR = "Matteo Angeloni"
