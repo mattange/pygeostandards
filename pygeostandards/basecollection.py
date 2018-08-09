@@ -7,9 +7,9 @@ Created on Mon Jul 23 23:18:18 2018
 import threading
 import logging
 import csv
-from pathlib import Path
+from pkg_resources import resource_stream
 
-
+from .info import DATADIR
 from .utils import lazy_load
 from .baseitem import BaseItem
 
@@ -20,16 +20,16 @@ class BaseCollection():
     _data_class_base = BaseItem
     _no_index = []
     
-    def __init__(self, path_or_list):
-        if isinstance(path_or_list, Path):
+    def __init__(self, string_or_list):
+        if isinstance(string_or_list, str):
             #assume we need loading from csv files
-            self.path = path_or_list
+            self._stream = resource_stream(__name__, DATADIR + "/" + string_or_list)
             self._is_loaded = False
         else:
             #assume it's a list that we can attach to object directly
-            self.path = None
+            self._stream = None
             self._is_loaded = True
-            self.objects = path_or_list
+            self.objects = string_or_list
             self.index_names = set()
             self.indices = {}
             for obj in self.objects:
@@ -50,8 +50,8 @@ class BaseCollection():
         self.index_names = set()
         self.indices = {}
         
-        f = open(self.path, 'r', encoding="utf-8")
-        reader = csv.DictReader(f, fieldnames=self._data_class_base.fieldnames(), delimiter=",")
+        #f = open(self._stream, 'r', encoding="utf-8")
+        reader = csv.DictReader(self._stream, fieldnames=self._data_class_base.fieldnames(), delimiter=",")
         next(reader)
         for entry in reader:
             obj = self._data_class_base(**entry)

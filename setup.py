@@ -2,7 +2,7 @@
 import setuptools
 #from sphinx.setup_command import BuildDoc
 
-from pygeostandards.info import VERSION, PACKAGENAME, AUTHOR, AUTHOR_EMAIL, RELEASE, DATADIR
+from pygeostandards.info import VERSION, RELEASE, PACKAGENAME, AUTHOR, AUTHOR_EMAIL, DATADIR
 
 with open("README.rst", "r") as fh:
     long_description = fh.read()
@@ -43,6 +43,8 @@ setuptools.setup(
     
     
     packages=setuptools.find_packages(exclude=['docs','examples','tests']),
+    
+    python_requires = '>=3.5',
     
     classifiers=(
         "Development Status :: 4 - Beta",
