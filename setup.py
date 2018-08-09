@@ -48,10 +48,12 @@ setuptools.setup(
     
     classifiers=(
         "Development Status :: 4 - Beta",
-        "Indended Audience :: Developers",
+        "Intended Audience :: Developers",
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
+        "Natural Language :: English",
+        "Topic :: Software Development :: Libraries"
     ),
     keywords='ISO country geography NUTS currencies languages regions scripts',
     
